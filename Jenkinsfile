@@ -8,4 +8,10 @@ sh 'sh test.sh'
  }
  }
  }
+post {
+ success {
+ archiveArtifacts artifacts: 'test.sh', fingerprint:
+true
+ }
+ }
 }
