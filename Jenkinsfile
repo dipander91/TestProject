@@ -3,7 +3,7 @@ pipeline {
  stages {
  stage('build') {
  steps {
-sh 'I am in build step of pipeline'
+sh 'echo "I am in build step"'
  }
  }
  }
